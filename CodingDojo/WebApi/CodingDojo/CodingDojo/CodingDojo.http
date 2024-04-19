@@ -1,0 +1,6 @@
+@CodingDojo_HostAddress = http://localhost:5136
+
+GET {{CodingDojo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

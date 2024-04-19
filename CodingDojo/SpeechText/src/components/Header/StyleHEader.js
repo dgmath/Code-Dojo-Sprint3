@@ -1,0 +1,20 @@
+import styled from "styled-components";
+
+export const ContainerHeader = styled.View`
+height: 16%;
+background-color: #9a8aeb;
+border-radius: 0px 0px 15px 15px;
+elevation: 12px;
+justify-content: center;
+align-items: center;
+`
+
+export const Logo = styled.Image`
+    width: 92px;
+    height: 85;
+    margin-top: 55px;
+`
+
+export const safeContainer = styled.SafeAreaView`
+    margin-top: 30px;
+`
